@@ -1,0 +1,31 @@
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.row {
+  float: left;
+  width: 300px;
+  padding: 5px;
+  margin: auto;
+}
+
+.img,
+#containers {
+  background-color: red;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: inline-block;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+#search {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
