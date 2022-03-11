@@ -46,7 +46,6 @@ showCard = (Cards) => {
         container.appendChild(card);
 
         card.addEventListener("click", () => {
-            // console.log(id,name,level,type,race,atk,def,attribute,archetype,desc)
             Card_data_container.innerHTML = "";
             const ShowData = document.createElement("div");
             ShowData.classList.add("card_data");
