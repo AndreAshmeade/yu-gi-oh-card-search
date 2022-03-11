@@ -42,7 +42,7 @@ showCard = (Cards) => {
       </div>
     </div>
         `;
-        // console.log(ShowImgCard,id);
+        
         container.appendChild(card);
 
         card.addEventListener("click", () => {
